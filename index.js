@@ -19,7 +19,7 @@ const displayResults = (responseJson) => {
   console.log(responseJson);
   //add images
   $('.pictureDisplay').append(
-    `<img src="${responseJson.message}" class="results-img" width="auto" height="225" style="margin: 10px; border-radius: 10px;">`
+    `<img src="${responseJson.message}" class="results-img" width="250" height="auto" style="margin: 10px; border-radius: 10px;">`
   );
   //display the results section
   $('h2, p').removeClass('hidden');
