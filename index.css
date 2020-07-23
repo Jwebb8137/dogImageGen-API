@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #fff;
+}
+
+body {
+  background: #e9ffd0;
+  font-family: 'Fredoka One', cursive;
+  margin: auto;
+  max-width: 800px;
+  padding: 25px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.submit-button {
+  border: 3px solid #000;
+  border-radius: 8px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+
+input[type=number] {
+  border: 2px solid #000;
+  font-family: 'Fredoka One', cursive;
+  padding: 7px;
+}
+
+input {
+  display: block;
+  margin: 15px auto;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+};
+
+.pictureDisplay{
+  display: flex;
+};
+
+.results {
+  display: flex;
+}
+
+label {
+  font-size: 20px;
+}
+
+input:hover {
+  background: #fff;
+  cursor: pointer;
+  opacity: .8;
+  transform: scale(1.1);
+}
+
+.picture-display {
+  display: flex;
+}
